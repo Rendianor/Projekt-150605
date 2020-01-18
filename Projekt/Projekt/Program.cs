@@ -44,8 +44,8 @@ namespace Projekt
             Console.Clear();
             Console.WriteLine("Masz do wybóru trzy klasy, każda z klas ma swoje plusy i minusy więc wybieraj mądrze!");
             Console.WriteLine("1 - Pierwszą klasą jest Wojownik/Krasnolud. Posiada 65 zdrowia oraz +1 do ataku!");
-            Console.WriteLine("2 - Pierwszą klasą jest Czarodziej/Elf. Posiada 55 zdrowia oraz +3 do ataku!");
-            Console.WriteLine("3 - Pierwszą klasą jest Łucznik/Człowiek. Posiada 60 zdrowia oraz +2 do ataku!");
+            Console.WriteLine("2 - Drugą klasą jest Czarodziej/Elf. Posiada 55 zdrowia oraz +3 do ataku!");
+            Console.WriteLine("3 - Trzecią klasą jest Łucznik/Człowiek. Posiada 60 zdrowia oraz +2 do ataku!");
             do
             {
                 if (!int.TryParse(Console.ReadLine(), out działanie)) continue;
